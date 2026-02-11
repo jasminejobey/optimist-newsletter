@@ -34,7 +34,7 @@ Get Started
 
 Send yourself a single newsletter immediately:
 ```bash
-curl "https://YOUR-DEPLOYMENT-URL.vercel.app/api/send-public-newsletter?email=your@email.com"
+curl "https://optimist-newsletter.vercel.app/api/send-public-newsletter?email=your@email.com"
 ```
 
 ### Option 2: Deploy Your Own (Recommended)
@@ -47,7 +47,7 @@ curl "https://YOUR-DEPLOYMENT-URL.vercel.app/api/send-public-newsletter?email=yo
      - `RESEND_API_KEY`: Get free API key from [Resend](https://resend.com)
      - `ANTHROPIC_API_KEY`: Get from [Anthropic Console](https://console.anthropic.com)
 3. **Set up daily automation** using [cron-job.org](https://cron-job.org):
-   - Trigger: `https://your-deployment.vercel.app/api/send-public-newsletter?email=YOUR_EMAIL`
+   - Trigger: `https://optimist-newsletter.vercel.app/api/send-public-newsletter?email=YOUR_EMAIL`
    - Schedule: Daily at 7:00 AM
    - Timezone: America/New_York
 
